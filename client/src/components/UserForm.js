@@ -8,7 +8,6 @@ import isValidEmail from 'sane-email-validation';
 
 class UserForm extends Component {
     handleFormSubmit(formProps) {
-      //call action creator to add prodcuts
       console.log("formProps: ", formProps);
       this.props.createUser(formProps);
     }
