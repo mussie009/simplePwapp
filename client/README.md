@@ -1,5 +1,5 @@
 
-React / Redux app. Liss all users from the API(https://jsonplaceholder.typicode.com/users) (grid, listview). This will be the home page of the app.
+React / Redux app. Lists all users from the API(https://jsonplaceholder.typicode.com/users) (grid, listview). This will be the home page of the app.
 Has functionality to create a new user (user object in the API)
 Validations when creating a new user (validation error will be displayed to the user):
 Required fields: name, email, phone
