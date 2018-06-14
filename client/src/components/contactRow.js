@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectContact } from '../actions/index';
 import { bindActionCreators } from 'redux';
-// import ProfilePhotoes from './ImageDownloads';
 import ContactDetail from './contactDetail';
 
 class ContactRow extends Component {
@@ -51,10 +50,6 @@ class ContactRow extends Component {
   }
 }
 
-// function mapStateToProps( state){
-//   return {
-//   }
-// }
 
 function mapDispatchToProps(dispatch){
   return bindActionCreators({selectContact}, dispatch);
