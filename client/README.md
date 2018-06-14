@@ -1,3 +1,11 @@
+
+React / Redux app. Liss all users from the API(https://jsonplaceholder.typicode.com/users) (grid, listview). This will be the home page of the app.
+Has functionality to create a new user (user object in the API)
+Validations when creating a new user (validation error will be displayed to the user):
+Required fields: name, email, phone
+Validated user data will be "posted" as a json object to the test API: https://jsonplaceholder.typicode.com/posts (this is a "fake" API that does not store data but will send you the data that you "posted" in return with an assigned ID). Select a "caching strategy" that ensures that created users are stored offline.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
