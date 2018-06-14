@@ -37,13 +37,7 @@ class ContactsList extends Component {
     };
 }
 
-// function mapStateToProps(state) {
-//   //whatever is returned from here will show up as props inside of ContactsList
-//   return {
-//     contacts: state.contacts,
-//     contact: state.activeContact
-//   };
-// }
+
 function mapStateToProps(state) {
   return { contacts: state.contacts };
 }
